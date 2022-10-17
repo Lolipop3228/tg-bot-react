@@ -1,4 +1,5 @@
 import './App.css';
+import Button from "./components/Button/Button";
 
 function App() {
 
@@ -9,7 +10,6 @@ function App() {
   return (
     <div className="App">
       Hello
-      <button onClick={onClose}>Закрыть</button>
     </div>
   );
 }
